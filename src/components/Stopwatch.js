@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 class Stopwatch extends Component {
+  state = {
+    isRunning: false
+  };
   render() {
     return (
       <div className="stopwatch">
